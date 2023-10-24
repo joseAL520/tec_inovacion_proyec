@@ -1,10 +1,13 @@
-<h4>Citas</h4>
-<form (ngSubmit)="emitCharacter()">
-    <span>Fecha de Creacion:  {{date | date}} </span> 
-    <input type="text"   [(ngModel)]="character.name"         name="name"  placeholder="Paciente" class="form-control mb-2">
-    <input type="number" [(ngModel)]="character.edad"         name="edad" placeholder="Poder" class="form-control mb-2">
-    <span>Fecha de la cita</span>
-    <input type="date"   [(ngModel)]="character.fechaCita"    name="edad" class="form-control mb-2">
-    <input type="text"   [(ngModel)]="character.diagnostico"  name="name"  placeholder="Diagnostico" class="form-control mb-2">
-    <button ype="submit" class="btn btn-primary">agregar</button>
-</form>
+<div class="conteinerPoint">
+    <h4 class="d-flex justify-content-center">Citas</h4>
+    <form (ngSubmit)="emitCharacter()">
+        <span class="texto1">Fecha de Creacion:  {{date | date}} </span> 
+        <input type="text"   [(ngModel)]="character.name"         name="name"  placeholder="Paciente"   class="paciente form-control mb-2">
+        <span class="texto1" >Edad</span>
+        <input type="number" [(ngModel)]="character.edad"         name="edad"                           class="edadPaciente form-control mb-2">
+        <span class="texto1" >Fecha de la cita</span>
+        <input type="date"   [(ngModel)]="character.fechaCita"    name="edad" class="fechaCita form-control mb-2">
+        <textarea  class="diagnostico  form-control mb-2" [(ngModel)]="character.diagnostico"  name="name"  placeholder="Diagnostico"></textarea>
+        <button type="submit" class="buttonagg  btn btn-primary">Actualizar</button>
+    </form>
+</div>
