@@ -11,16 +11,12 @@ export class MainPageComponent  {
    
     public chacters: Character[] = [
         {
-            name:'Krilin',
-            power:100
+            name: 'Josue',
+            power: 14,
+            fechaCita: 1234123341,
+            fechaCreacion: 123123,
+            diagnostico: '',
         },
-        {
-            name:'Goku',
-            power: 95.000
-        },{
-            name:'Vegeta',
-            power: 100
-        }
     ];
 
     onNewCharacter(character: Character): void {

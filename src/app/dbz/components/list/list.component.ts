@@ -9,12 +9,7 @@ import { Character } from '../../interfaces/character.interface';
 export class ListBdzComponent {
 
   @Input()
-  public charactersList: Character[] = [
-    {
-        name:'trunk',
-        power:10
-    }
-];
+  public charactersList: Character[] = [];
 
   @Output()
   public ondeDelete: EventEmitter<number> = new EventEmitter();
