@@ -2,7 +2,7 @@
 
 export interface Character {
     name: string;
-    power: number;
+    edad: number;
     fechaCita:number;
     fechaCreacion:number;
     diagnostico:string;

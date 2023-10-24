@@ -12,7 +12,7 @@ export class MainPageComponent  {
     public chacters: Character[] = [
         {
             name: 'Josue',
-            power: 14,
+            edad: 14,
             fechaCita: 1234123341,
             fechaCreacion: 123123,
             diagnostico: '',

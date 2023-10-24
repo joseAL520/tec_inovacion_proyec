@@ -1,4 +1,8 @@
+.conteinerList{
+    width: 750px;
 
- .list-group{
-    padding: 20px;
+    .list-group{
+        padding: 20px;
+    }
 }
+ 

@@ -14,7 +14,7 @@ export class AddCharacterComponent {
   
     public character: Character = {
       name: '',
-      power: 0,
+      edad: 0,
       fechaCita:0,
       fechaCreacion:0,
       diagnostico:'',
@@ -23,6 +23,6 @@ export class AddCharacterComponent {
     emitCharacter():void{
       if (this.character.name.length === 0) return;
       this.onNewCharacter.emit(this.character);
-      this.character = {name: '', power: 0, fechaCita:0, fechaCreacion:0, diagnostico:'',};
+      this.character = {name: '', edad: 0, fechaCita:0, fechaCreacion:0, diagnostico:'',};
     } 
 }
