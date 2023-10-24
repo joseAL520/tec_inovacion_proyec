@@ -14,7 +14,7 @@ export class MainPageComponent  {
             name: 'Josue',
             edad: 14,
             fechaCita: 1234123341,
-            diagnostico: '',
+            diagnostico: 'paciente con tal co',
         },
     ];
 

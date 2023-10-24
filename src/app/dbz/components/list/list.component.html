@@ -15,9 +15,14 @@
     
         <div>
             <span class="text-primary">{{ i + 1 }}. </span>
-            <span>{{character.name}} - </span>
-            <strong>Power:</strong>
-            <span> {{character.edad}}</span> 
+            <strong>Paciente: </strong>
+            <span>{{character.name}} </span>
+            <strong>Edad: </strong>
+            <span> {{character.edad}} </span> 
+            <strong>Fecha cita: </strong>
+            <span> {{character.fechaCita}} </span> 
+            <strong>Diagnostico: </strong>
+            <span> {{character.diagnostico}} </span> 
          </div>
         <button class="btn btn-danger" (click)="oneDeleteCharacter(i)">X</button>      
         </li>
